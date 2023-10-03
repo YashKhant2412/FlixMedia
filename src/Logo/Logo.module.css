@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.c1 {
+  display: flex;
+}
+
+.c1 > img {
+  height: 40px;
+  width: 40px;
+}
+.c1 > span {
+  font-size: 25px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.c2 > span {
+  padding-left: 5px;
+  white-space: nowrap;
+}

@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  cursor: pointer;
+}
+
+.img {
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+.name {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  padding-left: 15px;
+  padding-top: 7px;
+  height: 40px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+}

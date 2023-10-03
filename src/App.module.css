@@ -1,0 +1,42 @@
+body {
+  color: #ffffff;
+  font-family: Maximum Impact;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 25px;
+}
+
+.header {
+  flex: 1;
+  /* background-color: red; */
+}
+
+.show_detail {
+  flex: 3;
+  /* background-color: blue; */
+}
+
+.reco_Container {
+  flex: 2;
+}
+.reco_title {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.recommended_shows:hover {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.recommended_shows {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+  /* background-color: green; */
+}
